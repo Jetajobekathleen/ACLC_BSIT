@@ -1,0 +1,12 @@
+public class Main {
+	public static void main(String[] args) {
+	int no = 527, hundreds = no / 100, tens = (no / 100) % 10, ones = no % 10;
+	int sum = hundreds + tens + ones, product = hundreds * tens * ones;
+	System.out.println("Number = " + no);
+	System.out.println("Hundreds digit = " + hundreds);
+	System.out.println("Tens digit = " + tens);
+	System.out.println("ones digit = " + ones);
+	System.out.println("Sum of the digits = " + sum);
+	System.out.println("Product of the digits = " + product);
+	}
+}
