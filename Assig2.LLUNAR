@@ -1,0 +1,14 @@
+public class Assignment2 {  
+    public static void main(String[] args) {
+      
+        int totalSeconds = 185;
+        
+        int minutes = totalSeconds / 60;
+        int remainingSeconds = totalSeconds % 60;
+
+        System.out.println("Output:");
+        
+        System.out.println(minutes + " minutes and " + remainingSeconds + " seconds");
+        
+    }
+}
