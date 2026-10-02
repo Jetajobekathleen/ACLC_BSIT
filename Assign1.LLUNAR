@@ -1,0 +1,13 @@
+public class Assignment1 {
+    public static void main(String[] args) {
+       
+        int quarter = 2;
+        int endMonth = quarter * 3;
+        int startMonth = endMonth - 2;
+        
+        System.out.println("Output:");
+        
+        System.out.println("Range = " + startMonth + " - " + endMonth);
+        
+    }
+}
