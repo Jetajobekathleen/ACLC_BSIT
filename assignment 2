@@ -1,0 +1,10 @@
+public class Main {
+	public static void main(String[] args) {
+int totalsec = 185;
+int minute = 185 / 60;
+int remainsec = 185 % 60;
+
+System.out.println( minute );
+System.out.println( remainsec );		
+	}
+}
