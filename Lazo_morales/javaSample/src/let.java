@@ -1,0 +1,6 @@
+/**
+ * let
+ */
+public interface let {
+
+}
