@@ -1,0 +1,12 @@
+public class main {
+    public static void main(string[]args)  {
+        double = 213
+         double = 2021
+          double = 13
+
+          double average =( a + b + c )  /3;
+
+          syestem.out.print  (average)  }
+
+
+
