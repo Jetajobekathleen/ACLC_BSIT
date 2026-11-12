@@ -1,0 +1,12 @@
+public class Exercise2 {
+    public static void main(String[] args) {
+        
+        int num1 = 2021;
+        int num2 = 10;
+        int num3 = 50;
+        
+        int greatest = 2021;
+
+        System.out.println("Greatest Value: " + greatest);
+    }
+}
