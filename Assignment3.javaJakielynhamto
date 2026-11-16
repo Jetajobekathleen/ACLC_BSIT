@@ -1,0 +1,17 @@
+public class main {
+    public static void main(String[] args) {
+        int number = 527;
+
+        // separate digits using / and % only
+        int hundreds = number / 100;   // 527 / 100 = 5
+        int remainder = number % 100; // 527 % 100 = 27
+        
+        int tens = remainder / 10;     // 27 / 10 = 2
+        int ones = remainder % 10;     // 27 % 10 = 7
+
+        // Optional: Print the results to verify
+        System.out.println("Hundreds: " + hundreds);
+        System.out.println("Tens: " + tens);
+        System.out.println("Ones: " + ones);
+    }
+}
